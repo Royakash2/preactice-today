@@ -84,3 +84,12 @@ hr {
     margin-bottom: 10px;
 }
 /* donation info styles end here */
+
+/* donation plans styles start here */
+
+.donate-plan-container{
+    display: flex;
+}
+.donation-plans{
+    text-align: center;
+}
