@@ -1,9 +1,12 @@
+/* -------------------------------
+!!!!-------Global style css start here -------!!!!
+*/
 * {
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
 
-/* banner styles start here*/
+/* ----banner styles start here-----*/
 .banner-container {
     background-image: url(../images/banner\ \(2\).jpg), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
     background-blend-mode: overlay;
@@ -37,8 +40,8 @@
     color: #ffffff;
 }
 
-/* banner styles end here */
-/* donation info styles start here */
+/*------ banner styles end here------ */
+/*------- donation info styles start here------ */
 .donate {
     text-align: center;
     margin: 60px 200px;
@@ -83,13 +86,36 @@
 hr {
     margin-bottom: 10px;
 }
-/* donation info styles end here */
 
-/* donation plans styles start here */
+/* ------donation info styles end here -------*/
 
-.donate-plan-container{
+/* -------donation plans styles start here -------*/
+
+.donate-plan-container {
     display: flex;
+    gap: 40px;
+    margin-left: 150px;
+    margin-top: 20px;
+    
 }
-.donation-plans{
+
+.donation-plans {
     text-align: center;
 }
+.plans{
+    width: 260px;
+    height: 152px;
+    background-color: #4f9da61a;
+    padding: 54px 23px;
+    text-align: left;
+}
+.fa-sharp{
+    padding: 24px 0 ;
+    font-size: 30px;
+   ;
+}
+.fa-solid{
+    padding: 24px 0;
+    font-size: 35px;
+    color: dodgerblue
+    }
